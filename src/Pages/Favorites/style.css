@@ -1,0 +1,72 @@
+
+.meus-filmes {
+margin-top:24px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.meus-filmes h1{
+    margin-bottom: 14px;
+}
+
+.meus-filmes span{
+    font-size: 18px;
+}
+
+.meus-filmes ul{
+    width: 720px;
+}
+
+.meus-filmes ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 14px;
+}
+
+.meus-filmes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meus-filmes div a {
+    text-decoration:none;
+    color: blue;
+    margin-right: 14px;
+}
+
+.list {
+    display: flex;
+}
+
+.list a {
+display: flex;
+ width: 150px;
+ height: 35px;
+ font-size: 15px;
+ color: black!important;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ border-radius: 5px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background-color:rgb(215, 210, 210);
+}
+
+.list button {
+ display: flex;
+ width: 150px;
+ height: 35px;
+ font-size: 15px;
+ text-decoration: none;
+ border:rgb(215, 210, 210);
+ align-items: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ justify-content: center;
+ border-radius: 5px;
+ text-align: center;
+ background-color:rgb(215, 210, 210);
+}
